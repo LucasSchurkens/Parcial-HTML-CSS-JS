@@ -1,0 +1,172 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header {
+
+  padding: 10px 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #218838;
+
+  align-items: center;
+
+  height: 30px;
+}
+
+header > a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: white;
+}
+
+.barra-busqueda {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 250px;
+}
+
+.carrito {
+  font-size: 1rem;
+}
+
+
+/* Seccion productos */
+.seccion-productos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-producto {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  border-radius: 15px;
+  align-items: center;
+  padding: 15px;
+}
+
+.card-producto img {
+  width: 100px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.card-producto h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.card-producto p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card-producto button:hover {
+  background-color: #218838;
+}
+
+
+
+/* Seccion carrito */
+.seccion-carrito {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+#items-carrito {
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.nombre-item, .info-carrito {
+  font-size: 20px;
+}
+
+.boton-eliminar {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.total-carrito {
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+/*-------------MIS CAMBIOS -------*/
+
+.contenedor-productos{
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+#lista-items{
+  list-style: none;
+}
+
+
+#items-carrito{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#lista-items{
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.bloque-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boton-eliminar{
+  background-color: red;
+
+  color: #ccc;
+  border-radius: 10px;
+}
+
